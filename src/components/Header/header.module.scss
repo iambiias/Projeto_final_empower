@@ -47,10 +47,32 @@ input{
     border: none;
     color: white;
     font-size: 15px;
+    padding-left: 6px;
+    width: 12vw;
 &::placeholder{
         color: white;
     }
 
 
+}
+}
+@media(max-width:1168){
+    .boxLogo{
+        border: solid 2px red;
+        width: 25vw;
+        h1{
+            font-size: 2vw;
+
+        }
+    img{
+        width: 5vw;
+    }
+    .boxInput{
+        input{
+        &::placeholder{
+            font-size: 13px;
+        }
+    }
+    }
 }
 }
