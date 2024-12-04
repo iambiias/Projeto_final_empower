@@ -1,5 +1,4 @@
 header{
-    //border:solid 2px red;
     height: 18vh;
     display: flex;
     align-items: center;
@@ -8,7 +7,6 @@ header{
 
 }
 .boxLogo{
-    border: solid 2px yellow;
     width: 23vw;
     display: flex;
     color: white;
@@ -19,22 +17,22 @@ header{
 }
 
 .boxMenu{
-    border: solid 2px green;
     width: 35vw;
 ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
     a{
         color:white;
-        font-size: 20px;
+        
     }
 }
 }
 .boxInput{
     border: solid 2px white;
     height: 6vh;
-    width:20vw;
+    width: 20vw;
     margin-right: 20px;
     justify-content: space-around;
     align-items: center;
@@ -56,9 +54,8 @@ input{
 
 }
 }
-@media(max-width:1168){
+@media(max-width:1134){
     .boxLogo{
-        border: solid 2px red;
         width: 25vw;
         h1{
             font-size: 2vw;
@@ -73,6 +70,66 @@ input{
             font-size: 13px;
         }
     }
+    }
+}
+}
+
+@media(max-width: 1134px){
+
+    .boxLogo{
+        width: 25vw;
+        h1{
+            font-size: 1.9vw;
+        }
+        img{
+            width: 5vw;
+
+        }
+
+        .boxMenu{
+            border: solid 2px yellow;
+            ul{
+                font-size: 1.7vw;
+            } 
+        }
+    .boxInput{
+        width: 18vw;
+        input{
+            &::placeholder{
+                font-size: 1.2vw;
+
+            }
+    }
+    }
+
+}
+
+@media(max-width: 760px){
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxInput{
+        display: none;
+    }
+    .boxLogo{
+        width: 80%;
+        h1{
+            font-size: 25px;
+
+        }
+img{
+    width: 60px;
+
+}
+    }
+    boxMenu{
+        width: 100%;
+    ul{
+        justify-content: space-evenly;
+        font-size: 22px;
+    }    
     }
 }
 }

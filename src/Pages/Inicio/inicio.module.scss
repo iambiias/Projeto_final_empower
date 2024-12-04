@@ -7,20 +7,17 @@
     align-items: center;
     h2{
         color: white;
-        border: solid 2px red;
-        margin-left: 140px;
-        font-size: 40px;
+        margin-left: 90px;
+        font-size: 29px;
         display: flex;
-        width: 27vw;
+        width: 25vw;
     
     }
 }
 
 .devoDoar{
    height: 80vh;
-    border: solid 2px red;
 div{
-    border: solid 2px green;
     height: 15vh;
     display: flex;
     align-items: center;
@@ -33,13 +30,11 @@ div{
 }
 }
 .boxCard{
-    border: solid 2px blue;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     article{
-        border: solid blueviolet;
         width: 22%;
         height: 85%;
         display: flex;
@@ -50,7 +45,6 @@ div{
         border-radius: 10px;
         p{
             text-align: center;
-            border: solid 2px brown;
             width: 80%;
             font-size: 20px;
         }
